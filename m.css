@@ -1,0 +1,24 @@
+*{
+	box-sizing:border-box;
+}
+.col{
+    float:left;
+	width:22.22%;
+	padding:150px;
+	
+	
+}
+.row::after{
+	
+	content:"";
+	clear:both;
+	display:table;
+}
+.body{
+background-image:url('b3.png');
+background-size:cover;
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+
+
